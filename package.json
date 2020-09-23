@@ -1,0 +1,11 @@
+{
+    "name": "@vercel-mono-example/mono",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "lerna run build --stream"
+    },
+    "dependencies": {
+        "lerna": "^3.22.1"
+    }
+}
