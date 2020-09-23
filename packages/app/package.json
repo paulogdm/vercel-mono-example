@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "build": "node -r esm index.js",
-        "vercel-build": "cd ../.. && npm i && npm run bootstrap && cd packages/app && npm run build"
+        "preinstall": "cd ../.. && npm i && npm run bootstrap && cd packages/app",
+        "build": "node -r esm index.js && mkdir public && touch public/index.html"
     },
     "dependencies": {
         "@vercel-mono-example/common": "^1.0.0",
