@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "build": "lerna run build --stream"
+        "build": "lerna run build --stream",
+        "bootstrap": "lerna bootstrap"
     },
     "dependencies": {
         "lerna": "^3.22.1"
